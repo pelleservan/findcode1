@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'SpecialElite';
+    src: url('SpecialElite.ttf');
+}
+
+@font-face {
+    font-family: 'HomemadeApple-Regular';
+    src: url('HomemadeApple-Regular.ttf');
+}
+
+body {
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	margin-top: 50px;
+}
+
+a {
+	text-decoration: none;
+	font-family: "SpecialElite";
+	font-size: 14px;
+	color: black;
+}
+
+a:hover {
+	color: #d80707;
+}
+
+pre {
+	text-align: left;
+	line-height: 1.5;
+	font-family: "SpecialElite";
+	font-size: 28px;
+}
+
+span {
+	opacity: 3;
+}
+
+#p {
+	color: #d80707;
+	margin-left: -27px;
+}
+
+ins {
+	color: #d80707;
+	text-decoration: none;
+	font-family: 'HomemadeApple-Regular';
+	font-size: 27px;
+}
+
+span {
+	opacity: 0.20;
+}
+
+#red {
+	margin-left: -65px;
+	position: absolute;
+	bottom: Opx;
+	font-family: 'HomemadeApple-Regular';
+	vertical-align: bottom;
+}
+
+#the {
+	margin-left: -27px;
+	vertical-align: -27px;
+}
